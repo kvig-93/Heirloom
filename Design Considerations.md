@@ -1,3 +1,5 @@
+# Design Considerations
+
 To design the data model, we have to consider the following:
 
 1. Data Relationships: Maintain clear relationships between experiments, processes, samples, analyses, equipment, and instruments.
