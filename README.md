@@ -9,6 +9,7 @@ sorbent) must be readily associated with the process conditions under which the 
 was collected. This requires a data model that allows scientists to easily query data about
 process conditions, samples, and analytical results. Additional context about the collected
 data is provided below:
+
 ● Research scientists define and execute experiments.
 ● Each experiment consists of one or more processes.
 ● A process is an instance of a process type, with type-dependent (and measurable)
