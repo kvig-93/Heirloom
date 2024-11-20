@@ -62,9 +62,9 @@ database
 
 
 ● SQL queries that would answer the following questions:
-
-      ○ In the above example, how did the carbon content trend from one process
-      to the next?
-
-      ○ Can the data from the combustion analyzer be trusted? (i.e., when was it
-      last calibrated?)
+ 
+   ○ In the above example, how did the carbon content trend from one process
+   to the next?
+   
+   ○ Can the data from the combustion analyzer be trusted? (i.e., when was it
+   last calibrated?)
