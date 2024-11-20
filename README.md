@@ -1,5 +1,5 @@
 # Heirloom
-Heirloom Take-Home Assessment
+# Heirloom Take-Home Assessment
 
 Our Innovation team relies on data collected from its analytical lab, testbeds, prototypes,
 and production facilities to understand how Heirloom’s accelerated mineralization process
@@ -63,8 +63,8 @@ database
 
 ● SQL queries that would answer the following questions:
 
-   ○ In the above example, how did the carbon content trend from one process
-    to the next?
+      ○ In the above example, how did the carbon content trend from one process
+      to the next?
 
-   ○ Can the data from the combustion analyzer be trusted? (i.e., when was it
-    last calibrated?)
+      ○ Can the data from the combustion analyzer be trusted? (i.e., when was it
+      last calibrated?)
