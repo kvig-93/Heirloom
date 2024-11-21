@@ -28,7 +28,7 @@ Linked to Sample and Instrument.
 
 Instrument: InstrumentID (PK), Type, Capabilities, LastCalibration
 
-Linked to Calibration.
+Linked to Calibration and Analysis.
 
 Calibration: CalibrationID (PK), InstrumentID (FK), CalibrationDate
 
