@@ -20,7 +20,7 @@ Linked to Process.
 
 Sample: SampleID (PK), ProcessID (FK), CollectionPoint (start/middle/end)
 
-Linked to Analysis.
+Linked to Analysis and Process.
 
 Analysis: AnalysisID (PK), SampleID (FK), InstrumentID (FK), AnalysisType, Parameters, Results
 
