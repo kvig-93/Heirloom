@@ -28,11 +28,10 @@ CREATE TABLE Process (
 --ProcessInputs Table
 CREATE TABLE ProcessInputs (
     InputID INT PRIMARY KEY,
-    ProcessID INT,
+    ProcessID INT REFERENCES Process(ProcessID)
     InputName VARCHAR(50),
     InputValue FLOAT,
-    Unit VARCHAR(20),
-    ProcessID INT REFERENCES Process(ProcessID)
+    Unit VARCHAR(20)
 );
 
 -- Sample table
