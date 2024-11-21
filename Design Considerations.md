@@ -15,7 +15,9 @@ To design the data model, we have to consider the following:
 
 6. Primary keys and foreign keys are created to have data consistency and enforce relationships.
 
-7. Assumptions to design the data model, schema and target database:
+7. All tables are under one schema to have tightly coupled data/queries and frequent access to other tables for analysis.
+
+8. Assumptions to design the data model, schema and target database:
 
  * Experiments have multiple processes which may vary in type and number and the time fields in the table are essential     for tracking sequence and duration of process. The Process Type are assumed to exist as clean vocabulary. Processes      have distinct and varying inputs and outputs.
  * Only measureable inputs are stored in ProcessInputs and to allow for dynamic inputs we store ProcessInputs separately
@@ -27,6 +29,7 @@ To design the data model, we have to consider the following:
  * Calibration records include timestamps and are tied to specific instruments.
  * Instrument table is assumed to maintain accurate data of LastCalibrationDate. Analysis table is assumed to have
    CarbonContent field to store the results in Results column in JSON format to extract.
+ * Tables do not grow disproportionately large. 
    
  
  
