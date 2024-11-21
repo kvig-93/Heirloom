@@ -25,6 +25,16 @@ CREATE TABLE Process (
     EndTime TIMESTAMP
 );
 
+--ProcessInputs Table
+CREATE TABLE ProcessInputs (
+    InputID INT PRIMARY KEY,
+    ProcessID INT,
+    InputName VARCHAR(50),
+    InputValue FLOAT,
+    Unit VARCHAR(20),
+    ProcessID INT REFERENCES Process(ProcessID)
+);
+
 -- Sample table
 CREATE TABLE Sample (
     SampleID INT AUTOINCREMENT PRIMARY KEY,
@@ -53,6 +63,6 @@ CREATE TABLE Analysis (
     SampleID INT REFERENCES Sample(SampleID),
     InstrumentID INT REFERENCES Instrument(InstrumentID),
     AnalysisType VARCHAR(50),
-    Parameters VARIANT, -- Semi-structured data
-    Results VARIANT     -- Semi-structured data
+    Parameters VARIANT, 
+    Results VARIANT    
 );
